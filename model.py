@@ -71,3 +71,5 @@ for epoch in range(10):
         print("total loss: ",total_loss)
     losses.append(total_loss)
 print(losses)
+
+torch.save(model,'modelNGram.pth')
